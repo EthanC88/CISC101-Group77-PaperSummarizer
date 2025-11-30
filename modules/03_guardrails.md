@@ -3,7 +3,7 @@
 - Added section warning messages
   
 - Module 3: Guardrails
-- If a sections is missing create a placeholder telling the user there is absence
+- If a sections are missing create a placeholder telling the user there is an absence
 - Avoid unstated facts and assumptions
 
 ## Strict Evidence Mode
@@ -16,7 +16,7 @@ IF evidenece_mode = "strict":
 
   ## Section Warnings
 
-  IF sections are issing / empty:
+  IF sections are missing / empty:
   "Section skipped: no usable text was provided."
 
   IF sections are too short ( < 50 words):
